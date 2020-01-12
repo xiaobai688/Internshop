@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:20:09 +0800] "GET / HTTP/1.1" 200 59548 http-bio-9301-exec-2 4426
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:20:09 +0800] "GET / HTTP/1.1" 304 - http-bio-9301-exec-1 5972
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:20:10 +0800] "GET /js/service/contentService.js HTTP/1.1" 304 - http-bio-9301-exec-3 4
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:20:10 +0800] "GET /js/controller/contentController.js HTTP/1.1" 304 - http-bio-9301-exec-5 7
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:20:10 +0800] "GET /%7B%7Bitem.pic%7D%7D HTTP/1.1" 404 991 http-bio-9301-exec-7 4
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:20:15 +0800] "GET /assets/img/favicon.ico HTTP/1.1" 404 995 http-bio-9301-exec-6 2
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:20:19 +0800] "GET /content/findByCategoryId?categoryId=1 HTTP/1.1" 500 14098 http-bio-9301-exec-8 3806
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:24:02 +0800] "GET /%7B%7Bitem.pic%7D%7D HTTP/1.1" 404 991 http-bio-9301-exec-2 3
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:24:03 +0800] "GET /content/findByCategoryId?categoryId=1 HTTP/1.1" 200 794 http-bio-9301-exec-2 155

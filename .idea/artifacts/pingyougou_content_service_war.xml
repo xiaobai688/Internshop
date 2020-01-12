@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pingyougou-content-service:war">
+    <output-path>$PROJECT_DIR$/pingyougou-content-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pingyougou-content-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pingyougou-content-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pingyougou-content-service:war exploded" />
+    </root>
+  </artifact>
+</component>

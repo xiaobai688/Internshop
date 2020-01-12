@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pingyougou-cart-web" />
+        <module name="pingyougou-sellergoods-interface" />
+        <module name="pingyougou-search-service" />
+        <module name="pingyougou-page-service" />
+        <module name="springJms" />
+        <module name="pingyougou-search-web" />
+        <module name="jmsDemo" />
+        <module name="freemarker" />
+        <module name="pingyougou-solr-util" />
+        <module name="pingyougou-common" />
+        <module name="security-demo" />
+        <module name="pingyougou-shop-web" />
+        <module name="pingyougou-context-interface" />
+        <module name="pingyougou-manager-web" />
+        <module name="pingyougou-seckill-service" />
+        <module name="pingyougou-task-service" />
+        <module name="pingyougou-pay-service" />
+        <module name="SpringdataSolr" />
+        <module name="pingyougou-user-web" />
+        <module name="pingyougou-sellergoods-service" />
+        <module name="pingyougou-pay-interface" />
+        <module name="pingyougou-order-interface" />
+        <module name="pingyougou-page-interface" />
+        <module name="pingyougou-user-service" />
+        <module name="springBootDemo" />
+        <module name="pingyougou-search-interface" />
+        <module name="pingyougou-user-interface" />
+        <module name="pingyougou-order-service" />
+        <module name="fastDFS" />
+        <module name="pingyougou-seckill-interface" />
+        <module name="pingyougou-cart-service" />
+        <module name="pingyougou-page-web" />
+        <module name="pingyougou-content-service" />
+        <module name="pingyougou-dao" />
+        <module name="pingyougou-portal-web" />
+        <module name="itcast-sms-service" />
+        <module name="pingyougou-pojo" />
+        <module name="pingyougou-cart-interface" />
+        <module name="pingyougou-seckill-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alicom-dysms-api" target="1.8" />
+      <module name="alicom-mns-receive-samples" target="1.6" />
+      <module name="aliyun-java-sdk-core" target="1.6" />
+      <module name="aliyun-java-sdk-dysmsapi" target="1.6" />
+      <module name="cas-server-base" target="1.8" />
+      <module name="fastDFS" target="1.8" />
+      <module name="freemarker" target="1.8" />
+      <module name="itcast-sms-service" target="1.8" />
+      <module name="jmsDemo" target="1.8" />
+      <module name="pingyougou-cart-interface" target="1.7" />
+      <module name="pingyougou-cart-service" target="1.7" />
+      <module name="pingyougou-cart-web" target="1.7" />
+      <module name="pingyougou-common" target="1.7" />
+      <module name="pingyougou-content-interface" target="1.7" />
+      <module name="pingyougou-content-service" target="1.7" />
+      <module name="pingyougou-context-interface" target="1.7" />
+      <module name="pingyougou-context-service" target="1.7" />
+      <module name="pingyougou-dao" target="1.7" />
+      <module name="pingyougou-manager-web" target="1.7" />
+      <module name="pingyougou-order-interface" target="1.7" />
+      <module name="pingyougou-order-service" target="1.7" />
+      <module name="pingyougou-page-interface" target="1.7" />
+      <module name="pingyougou-page-service" target="1.7" />
+      <module name="pingyougou-page-web" target="1.7" />
+      <module name="pingyougou-parent" target="1.7" />
+      <module name="pingyougou-pay-interface" target="1.7" />
+      <module name="pingyougou-pay-service" target="1.7" />
+      <module name="pingyougou-pojo" target="1.7" />
+      <module name="pingyougou-portal-web" target="1.7" />
+      <module name="pingyougou-search-interface" target="1.7" />
+      <module name="pingyougou-search-service" target="1.7" />
+      <module name="pingyougou-search-web" target="1.7" />
+      <module name="pingyougou-seckill-interface" target="1.7" />
+      <module name="pingyougou-seckill-service" target="1.7" />
+      <module name="pingyougou-seckill-web" target="1.7" />
+      <module name="pingyougou-sellergoods-interface" target="1.7" />
+      <module name="pingyougou-sellergoods-service" target="1.7" />
+      <module name="pingyougou-shop-web" target="1.7" />
+      <module name="pingyougou-solr-util" target="1.7" />
+      <module name="pingyougou-task-service" target="1.7" />
+      <module name="pingyougou-user-interface" target="1.7" />
+      <module name="pingyougou-user-service" target="1.7" />
+      <module name="pingyougou-user-web" target="1.7" />
+      <module name="security-demo" target="1.8" />
+      <module name="springBootDemo" target="1.8" />
+      <module name="SpringDataRedis" target="1.8" />
+      <module name="SpringdataSolr" target="1.8" />
+      <module name="springDataSolr" target="1.8" />
+      <module name="springdatasolr" target="1.8" />
+      <module name="springJms" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itcast-sms-service" options="-parameters" />
+      <module name="springBootDemo" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file url="file://$PROJECT_DIR$/cas-server-base/overlays" />
+    <file type="web" url="file://$PROJECT_DIR$/cas-server-base" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-cart-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-context-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-page-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-page-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-pay-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-seckill-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-seckill-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-sellergoods-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-shop-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-task-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pingyougou-user-web" />
+    <file type="web" url="file://$PROJECT_DIR$/security-demo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pingyougou-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-common/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-sellergoods-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-sellergoods-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-shop-web/pom.xml" />
+        <option value="$PROJECT_DIR$/security-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/fastDFS/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-context-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/springdatasolr/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-solr-util/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-search-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-page-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-page-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-page-web/pom.xml" />
+        <option value="$PROJECT_DIR$/jmsDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springJms/pom.xml" />
+        <option value="$PROJECT_DIR$/springBootDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast-sms-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-user-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyuogou-cart-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-cart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougouorderinterface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-order-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-pay-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-pay-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-seckill-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-seckill-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-seckill-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pingyougou-task-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8.0_231" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

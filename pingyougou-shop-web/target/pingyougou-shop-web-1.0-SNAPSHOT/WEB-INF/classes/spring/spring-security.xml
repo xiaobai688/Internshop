@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+			 xmlns:beans="http://www.springframework.org/schema/beans"
+			 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+			 xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+			 xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<!--因为设置了拦截全部页面,所以不管访问哪一个页面都会被拦截,所以需要让一些页面不拦截-->
+	<http pattern="/*.html" security="none"></http>
+	<http pattern="css/**" security="none"></http>
+	<http pattern="img/**" security="none"></http>
+	<http pattern="js/**" security="none"></http>
+	<http pattern="plugins/**" security="none"></http>
+	<http pattern="/seller/add" security="none"></http>
+	<!-- 页面拦截规则  use-expressions="false":不开启SPEL表达式,
+	添加了该属性之后下面定义的角色access里面的内容就不用:hasRole('ROLE_USER')
+	-->
+	<http use-expressions="false">
+		<!--pattern:定义拦截的范围:/*:就是本目录(不包括子目录),/**:包括本目录下的子目录-->
+		<intercept-url pattern="/**" access="ROLE_SELLER"></intercept-url>
+		<!--添加默认的登录页面:设置属性,访问自己的登录页面
+		always-use-default-target：指定了是否在身份验证通过后总是跳转到default-target-url属性指定的URL。
+		-->
+		<form-login login-page="/shoplogin.html" default-target-url="/admin/index.html"
+		authentication-failure-url="/shoplogin.html" always-use-default-target="true"/>
+		<!--csrf disabled="true"  关闭csrf ,如果不加会出现错误
+		CSRF（Cross-site request forgery）跨站请求伪造，
+		也被称为“One Click Attack”或者Session Riding，通常缩写为CSRF或者XSRF，是一种对网站的恶意利用。
+		-->
+		<csrf disabled="true"></csrf>
+		<!--可以使用框架页-->
+		<headers>
+			<frame-options policy="SAMEORIGIN"/>
+		</headers>
+		<!--添加注销功能:默认跳转到登录页面,也可以自己值得设置
+		logout-url:退出的地址，会自动生成
+		logout-success-url:退出后跳转的地址
+		-->
+		<logout/>
+	</http>
+
+	<!--认证管理器:就是在里面添加用户给相应的角色-->
+	<authentication-manager>
+		<authentication-provider user-service-ref="userDetailService">
+			<password-encoder ref="bcryptEncoder"></password-encoder>
+		</authentication-provider>
+	</authentication-manager>
+
+
+	<!-- 引用dubbo 服务 -->
+	<dubbo:application name="pinyougou-shop-web" />
+	<dubbo:registry address="zookeeper://192.168.152.128:2181"/>
+	<dubbo:reference id="sellerService"  interface="com.pinyougou.sellergoods.service.SellerService" >
+	</dubbo:reference>
+	<beans:bean id="userDetailService" class="com.pinyougou.service.UserDetailServiceImpl">
+		<beans:property name="sellerService" ref="sellerService"></beans:property>
+	</beans:bean>
+
+	<!--识别该加密算法-->
+	<beans:bean id="bcryptEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
+
+</beans:beans>

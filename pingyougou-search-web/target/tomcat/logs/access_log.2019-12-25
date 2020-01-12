@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:21:09 +0800] "GET /search.html HTTP/1.1" 200 25255 http-bio-9401-exec-1 2732
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:21:09 +0800] "GET /js/base.js HTTP/1.1" 304 - http-bio-9401-exec-3 10
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:21:09 +0800] "GET /js/service/searchService.js HTTP/1.1" 304 - http-bio-9401-exec-4 7
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:21:09 +0800] "GET /js/controller/searchController.js HTTP/1.1" 304 - http-bio-9401-exec-7 6
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:21:09 +0800] "GET /%7B%7Bitem.image%7D%7D HTTP/1.1" 404 995 http-bio-9401-exec-8 5
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:21:10 +0800] "GET /assets/img/favicon.ico HTTP/1.1" 404 995 http-bio-9401-exec-6 2
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:21:25 +0800] "POST /itemsearch/search HTTP/1.1" 500 14342 http-bio-9401-exec-9 15127
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:22:56 +0800] "POST /itemsearch/search HTTP/1.1" 200 13048 http-bio-9401-exec-2 736
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:24:24 +0800] "GET /search.html HTTP/1.1" 304 - http-bio-9401-exec-4 5
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:24:24 +0800] "GET /%7B%7Bitem.image%7D%7D HTTP/1.1" 404 995 http-bio-9401-exec-4 4
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:21:24:26 +0800] "POST /itemsearch/search HTTP/1.1" 200 13374 http-bio-9401-exec-4 1410

@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:13:55:46 +0800] "GET /seckill-index.html HTTP/1.1" 500 13460 http-bio-9110-exec-1 2708
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:13:55:47 +0800] "GET /favicon.ico HTTP/1.1" 500 13460 http-bio-9110-exec-2 696
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:13:56:20 +0800] "GET / HTTP/1.1" 500 13460 http-bio-9110-exec-3 435
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:13:56:21 +0800] "GET /favicon.ico HTTP/1.1" 500 13460 http-bio-9110-exec-4 726
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:13:57:49 +0800] "GET / HTTP/1.1" 302 - http-bio-9110-exec-1 3060
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:13:59:35 +0800] "GET / HTTP/1.1" 302 - http-bio-9110-exec-4 20
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:14:00:32 +0800] "GET /login/cas?ticket=ST-1-7tYPged7x0Id71jWYZZcEW7cjrU-mm-jun HTTP/1.1" 302 - http-bio-9110-exec-7 3143
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:14:00:32 +0800] "GET / HTTP/1.1" 200 10828 http-bio-9110-exec-8 176
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:14:00:33 +0800] "GET /js/service/seckillGoodsService.js HTTP/1.1" 304 - http-bio-9110-exec-9 251
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:14:00:33 +0800] "GET /%7B%7Bpojo.smallPic%7D%7D HTTP/1.1" 404 1001 http-bio-9110-exec-10 6
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:14:00:33 +0800] "GET /assets/img/favicon.ico HTTP/1.1" 404 995 http-bio-9110-exec-2 3
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:14:00:45 +0800] "GET /seckillGoods/findList HTTP/1.1" 200 770 http-bio-9110-exec-10 11624

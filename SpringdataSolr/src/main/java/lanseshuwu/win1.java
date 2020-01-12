@@ -1,0 +1,88 @@
+package lanseshuwu;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionListener;
+
+public class win1 extends JFrame {
+    JMenuBar menubar;
+    JMenu menu1,menu2,menu3,menu4,subMenu;
+    JMenuItem item1,item2,item3,item4,item5,item6,item7;
+    JMenuItem itemT1,itemT2,itemT3,itemT4;
+    menuListener1 listener1;
+    menuListener2 listener2;
+    menuListener3 listener3;
+    menuListener4 listener4;
+    menuListener5 listener5;
+    menuListener6 listener6;
+    menuListener7 listener7;
+    menuListener8 listener8;
+    menuListener9 listener9;
+    menuListener10 listener10;
+    menuListener11 listener11;
+    win1(){
+        this.setLayout(new FlowLayout());
+        menubar=new JMenuBar();
+        menu1=new JMenu("   菜单   ");
+        item1=new JMenuItem("个人信息");
+        subMenu=new JMenu("图书推荐");
+        itemT1=new JMenuItem("励志类");
+        itemT2=new JMenuItem("情感类");
+        itemT3=new JMenuItem("历史类");
+        itemT4=new JMenuItem("小说类");
+        item2=new JMenuItem("购书");
+        item3=new JMenuItem("借书");
+        menu2=new JMenu("   评论   ");
+        item4=new JMenuItem("书店评价");
+        menu3=new JMenu("通知公告");
+        item5=new JMenuItem("关于价格调整");
+        menu4=new JMenu("关于我们");
+        item6=new JMenuItem("书店信息");
+        item7=new JMenuItem("联系我们");
+        listener1=new menuListener1();
+        listener2=new menuListener2();
+        listener3=new menuListener3();
+        listener4=new menuListener4();
+        listener5=new menuListener5();
+        listener6=new menuListener6();
+        listener7=new menuListener7();
+        listener8=new menuListener8();
+        listener9=new menuListener9();
+        listener10=new menuListener10();
+        listener11=new menuListener11();
+        item1.addActionListener(listener1);
+        item2.addActionListener(listener2);
+        item3.addActionListener(listener3);
+        itemT1.addActionListener(listener4);
+        itemT2.addActionListener(listener5);
+        itemT3.addActionListener(listener6);
+        itemT4.addActionListener(listener7);
+        item4.addActionListener(listener8);
+        item5.addActionListener(listener9);
+        item6.addActionListener(listener10);
+        item7.addActionListener(listener11);
+        menu1.add(item1);
+        subMenu.add(itemT1);
+        subMenu.add(itemT2);
+        subMenu.add(itemT3);
+        subMenu.add(itemT4);
+        menu1.add(subMenu);
+        menu1.add(item3);
+        menu1.add(item2);
+        menu2.add(item4);
+        menu3.add(item5);
+        menu4.add(item6);
+        menu4.add(item7);
+        menubar.add(menu1);
+        menubar.add(menu2);
+        menubar.add(menu3);
+        menubar.add(menu4);
+        setJMenuBar(menubar);
+        this.setTitle("蓝色书屋");
+        Container con=this.getContentPane();
+        con.setBackground(Color.BLACK);
+        this.setBounds(0, 50, 400, 600);
+        this.setVisible(true);
+    }
+}
+

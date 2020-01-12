@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../GoogleDownloads/java/api_demo/alicom-dysms-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GoogleDownloads/java/api_sdk/aliyun-java-sdk-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GoogleDownloads/java/api_sdk/aliyun-java-sdk-dysmsapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../GoogleDownloads/java/msg_demo/alicom-mns-receive-samples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringdataSolr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cas-server-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastDFS" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/freemarker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itcast-sms-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jmsDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-cart-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-cart-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-cart-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-context-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-context-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-order-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-page-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-page-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-page-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-pay-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-pay-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-seckill-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-seckill-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-seckill-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-sellergoods-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-sellergoods-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-shop-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-solr-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-task-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougou-user-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBootDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springJms" charset="UTF-8" />
+  </component>
+</project>
